@@ -1,0 +1,223 @@
+a {
+	text-decoration: none;
+}
+
+body {
+	margin:0px;
+	padding:0px;
+}
+
+.top-part{
+  display: grid;
+  grid-template-columns: 6fr 1fr;
+  height: 45px;
+}
+
+.menu {
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
+  grid-gap: 0px;
+  background-color: #1f4c6b;
+  height: 45px;
+	margin: 0px;
+  padding-left: 0px;
+}
+
+.bar {
+	background-color:  #eeac34;
+}
+
+.menu li {
+	list-style: none;
+	color: #1f4c6b;
+	padding-left: 2px;
+	font-family: Gotham;
+	font-weight: bold;
+	letter-spacing: 3.5px;
+	padding: 13px;
+	text-align: center;
+}
+
+.menu li:hover {
+	background: #1f4c6b;
+	color: #eeac34;
+}
+
+.logo-part {
+  height: 45px;
+  background: url(../images/LOGOATAT.png);
+	background-color: #1f4c6b;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+	margin: 0px;
+	margin-top: 0px;
+}
+
+.hapyaw {
+	height: 290px;
+	margin-top: 10px;
+	background: url(../images/HAPYAW.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.showcase {
+	position: relative;
+	border: none;
+	height: 500px;
+	width: auto;
+	margin-bottom: 15px;
+	overflow: hidden;
+}
+
+.img {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	opacity:0;
+}
+
+.img1 {
+	background-image: url(../images/KAMI.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+	height:500px;
+	margin-top:15px;
+	margin-bottom: 15px;
+	animation: disolveRound 20s linear infinite;
+}
+
+.img2 {
+	background-image: url(../images/VOLCANO.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	height:500px;
+	margin-top:15px;
+	margin-bottom: 15px;
+	animation: disolveRound 20s linear infinite 4s;
+}
+.img3 {
+	background-image: url(../images/EARTHQUAKE.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height:500px;
+	margin-top:15px;
+	margin-bottom: 15px;
+	animation: disolveRound 20s linear infinite 8s;
+}
+.img4 {
+	background-image: url(../images/TSUNAMI.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height:500px;
+	margin-top:15px;
+	margin-bottom: 15px;
+	animation: disolveRound 20s linear infinite 12s;
+}
+.img5 {
+	background-image: url(../images/FAQSKAMI.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height:500px;
+	margin-top:15px;
+	margin-bottom: 15px;
+	animation: disolveRound 20s linear infinite 16s;
+}
+.img6 {
+	background-image: url(../images/KAMI.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height:500px;
+	margin-top:15px;
+	margin-bottom: 15px;
+	animation: disolveRound 20s linear infinite 20s;
+}
+
+@keyframes disolveRound {
+	0% {
+		opacity: 0;
+	}
+	5% {
+		opacity: 1
+	}
+	25% {
+		opacity: 1
+	}
+ 	30%	{
+		opacity: 0
+	}
+	100% {
+		transform: scale (1.1);
+	}
+}
+
+.centertext{
+	margin:25px;
+	text-align:justify;
+	font-family:Gotham;
+	font-size: 18px;
+	padding:1px;
+	margin-left: 90px;
+	margin-right: 90px;
+	border-top: 2px solid #1f4c6b;
+	border-bottom: 2px solid #1f4c6b;
+	color:#1f4c6b;
+}
+
+.centertext h2{
+	color:#eeac34;
+	letter-spacing: 1px;
+	font-weight: bolder;
+}
+
+.centertext a{
+	background:#eeac34;
+	color:#eeac34;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+
+#center {
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: 50px;
+  margin-right: 50px;
+	text-align-last: justify;
+}
+
+.OTA {
+	height: 350px;
+	margin-bottom: 10px;
+	background-image: url(../images/OTA.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.PH {
+	height: 300px;
+	background-image: url(../images/PH.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-top: 20px;
+	padding-top: 10px;
+	border-top: 2px solid #eeac34;
+}
+
+.footer {
+	height: 250px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(../images/FOOTER.png);
+	margin: 0px;
+}

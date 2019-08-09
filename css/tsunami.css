@@ -1,0 +1,741 @@
+a {
+	text-decoration: none;
+}
+
+body {
+	margin:0px;
+	padding:0px;
+}
+
+.top-part{
+  display: grid;
+  grid-template-columns: 6fr 1fr;
+  height: 45px;
+}
+
+.menu {
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
+  grid-gap: 0px;
+  background-color: #1f4c6b;
+  height: 45px;
+	margin: 0px;
+  padding-left: 0px;
+}
+
+.bar {
+	background-color:  #eeac34;
+}
+
+.menu li {
+	list-style: none;
+	color: #1f4c6b;
+	padding-left: 2px;
+	font-family: Gotham;
+	font-weight: bold;
+	letter-spacing: 3.5px;
+	padding: 13px;
+	text-align: center;
+}
+
+.menu li:hover {
+	background: #1f4c6b;
+	color: #eeac34;
+}
+
+.logo-part {
+  height: 45px;
+  background: url(../images/LOGOATAT.png);
+	background-color: #1f4c6b;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+	margin: 0px;
+	margin-top: 0px;
+}
+
+.tsunami{
+	height: 65px;
+	margin-bottom: 25px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #1f4c6b;
+}
+
+.tsunami h2{
+	text-align: center;
+	font-family: Gloss and Bloom;
+	color: #1f4c6b;
+	font-size: 40px;
+	letter-spacing: 3px;
+}
+
+.about-text {
+	height: 40px;
+	margin-top: 45px;
+	margin-left: 50px;
+	margin-right: 950px;
+	border-bottom: 2px solid #eeac34;
+	padding-left: 20px;
+}
+
+.about-text p{
+	text-align: left;
+	font-family: Gotham;
+	font-size: 30px;
+	color: #1f4c6b;
+}
+
+.all-about {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 25px;
+	height: 340px;
+	margin: 25px;
+	margin-top: 25px;
+	padding-left: 0px;
+}
+
+.about-picture {
+	display: grid;
+	grid-template-columns: 1fr;
+	height: 340px;
+	padding-left: 0px;
+	background-image: url(../images/TSUN.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+.about-picture:hover {
+	display: grid;
+	grid-template-columns: 1fr;
+	height: 340px;
+	padding-left: 0px;
+	background-image: url(../images/HOVER_TSUNAMI.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+.all-about-text {
+	display: grid;
+	grid-template-columns: 1fr;
+	height: 340px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border: 2px solid #eeac34;
+}
+
+.all-about-text p{
+	text-align: justify;
+	font-family: Gotham;
+	font-size: 15.5px;
+	color: #1f4c6b;
+}
+
+.about-TW {
+	height: 40px;
+	margin-top: 55px;
+	margin-right: 50px;
+	margin-left: 900px;
+	border-bottom: 2px solid #eeac34;
+	padding-right: 20px;
+}
+
+.about-TW p{
+	text-align: right;
+	font-family: Gotham;
+	font-size: 30px;
+	color: #1f4c6b;
+}
+
+.tw-about {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	grid-gap: 25px;
+	height: 300px;
+	margin: 25px;
+	margin-top: 25px;
+	padding-left: 0px;
+}
+
+.tw-picture{
+	display: grid;
+	grid-template-columns: 1fr;
+	height: 300px;
+	padding-left: 0px;
+	background-image: url(../images/TD.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: left;
+}
+
+.tw-text{
+	text-align: justify;
+	font-family: Gotham;
+	font-size: 15px;
+	background-color: #ffe16c;
+	color: #1f4c6b;
+	padding: 0px 25px;
+}
+
+.worst-tsunami {
+	height: 40px;
+	margin-bottom: 10px;
+	padding-bottom: 5px;
+	border-top: 2px solid #1f4c6b;
+}
+
+.worst-tsunami h1{
+	text-align: center;
+	font-family: Gotham;
+	color: #1f4c6b;
+	font-size: 40px;
+	letter-spacing: 2px;
+}
+
+.examples {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 20px;
+	margin: 20px;
+	padding: 20px;
+}
+
+.SI {
+	height: 250px;
+	padding-right: 20px;
+	border-right: 6px solid #eeac34;
+	background-image: url(../images/SI.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: left;
+}
+
+.NPC {
+	height: 250px;
+	padding-right: 20px;
+	border-right: 6px solid #eeac34;
+	background-image: url(../images/NPC.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: left;
+}
+
+.LIB {
+	height: 250px;
+	padding-right: 20px;
+	border-right: 6px solid #eeac34;
+	background-image: url(../images/LIB.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: LEFT;
+}
+
+
+.big-tsunami {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 20px;
+	margin: 0px;
+	padding-top: 5px;
+	padding-bottom: 1px;
+	border-top: 2px solid #1f4c6b;
+	border-bottom: 2px solid #1f4c6b;
+}
+
+.WORLD {
+	height: 800px;
+	padding-right: 20px;
+	border-right: 1.5px solid #1f4c6b;
+}
+
+.tsunami-world {
+	height: 40px;
+	border-bottom: 2px solid #eeac34;
+	margin: 20px;
+}
+
+.tsunami-world p{
+	text-align: center;
+	font-family: Gotham Black;
+	font-size: 25px;
+	color: #1f4c6b;
+}
+
+.SUM {
+	height: 20px;
+	margin: 10px;
+
+}
+
+.SUM p{
+	text-align: center;
+	font-family: Gotham;
+	font-size: 20px;
+	color: #1f4c6b;
+}
+
+.picture-world {
+	height: 300px;
+	background-image: url(../images/SUM.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left: 20px;
+	margin-left: 20px;
+}
+
+.about-SUM {
+	padding-left: 20px;
+}
+
+.about-SUM p {
+	text-align: justify;
+	font-family: Gotham;
+	font-size: 18px;
+	color: #1f4c6b;
+}
+
+.PH {
+	height: 580px;
+}
+
+.tsunami-ph {
+	height: 40px;
+	border-bottom: 2px solid #eeac34;
+	margin: 20px;
+}
+
+.tsunami-ph p{
+	text-align: center;
+	font-family: Gotham Black;
+	font-size: 25px;
+	color: #1f4c6b;
+}
+
+.MORO {
+	height: 20px;
+	margin: 10px;
+
+}
+
+.MORO p{
+	text-align: center;
+	font-family: Gotham;
+	font-size: 20px;
+	color: #1f4c6b;
+}
+
+.picture-ph {
+	height: 300px;
+	background-image: url(../images/MORO.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-right: 20px;
+	margin-right: 20px;
+}
+
+.about-MORO {
+	padding-right: 20px;
+}
+
+.about-MORO p {
+	text-align: justify;
+	font-family: Gotham;
+	font-size: 18px;
+	color: #1f4c6b;
+}
+
+
+.avoid {
+	height: 40px;
+	border-left: 4px solid #eeac34;
+	margin: 20px;
+	padding-left: 2px;
+}
+
+.avoid p{
+	text-align: left;
+	font-family: Gloss and Blossom;
+	font-size: 32px;
+	color: #1f4c6b;
+	letter-spacing: 3px;
+	padding-left: 10px;
+}
+
+.BDA {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 10px;
+	height: 1470px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.bda-first {
+	height: 700px;
+}
+
+.before p {
+	text-align: right;
+	font-family: Gotham Black;
+	padding-right: 20px;
+	font-size: 32px;
+	color: #eeac34;
+	letter-spacing: 3px;
+	border-right: 6px solid #1f4c6b;
+}
+
+.first-thing p {
+	text-align: left;
+	font-family: Gotham;
+	font-style: italic;
+	padding-right: 8px;
+	font-size: 15px;
+	color: #1f4c6b;
+	border-bottom: 2px solid #1f4c6b;
+	margin-right:120px;
+}
+
+.BTFIRST {
+	height: 130px;
+	background-image: url(../images/BTFIRST.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 20px;
+}
+
+.BTF-text p {
+	text-align: center;
+	font-family: Tahoma;
+	padding-right: 8px;
+	font-size: 15px;
+	color: #1f4c6b;
+}
+
+.BTSECOND {
+	height: 130px;
+	background-image: url(../images/BVSIXTH.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 20px;
+}
+
+.BTS-text p {
+	text-align: center;
+	font-family: Tahoma;
+	padding-right: 8px;
+	font-size: 15px;
+	color: #1f4c6b;
+}
+
+.BVTHIRD{
+	height: 130px;
+	background-image: url(../images/BTTHIRD.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 20px;
+}
+
+.BVT-text p {
+	text-align: center;
+	font-family: Tahoma;
+	padding-right: 8px;
+	font-size: 15px;
+	color: #1f4c6b;
+}
+
+.BVFOURTH {
+	height: 130px;
+	background-image: url(../images/BTFOURTH.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 20px;
+}
+
+.BVF-text p {
+	text-align: center;
+	font-family: Tahoma;
+	padding-right: 8px;
+	font-size: 15px;
+	color: #1f4c6b;
+}
+
+.BVFIFTH {
+	height: 130px;
+	background-image: url(../images/BVSEVENTH.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 20px;
+}
+
+.BVFF-text p {
+	text-align: center;
+	font-family: Tahoma;
+	padding-right: 8px;
+	font-size: 15px;
+	color: #1f4c6b;
+}
+
+.bda-second {
+	height: 700px;
+}
+
+.during p {
+	text-align: right;
+	font-family: Gotham Black;
+	padding-right: 20px;
+	font-size: 32px;
+	color: #eeac34;
+	letter-spacing: 3px;
+	border-right: 6px solid #1f4c6b;
+}
+
+.second-thing p {
+	text-align: left;
+	font-family: Gotham;
+	font-style: italic;
+	padding-right: 8px;
+	font-size: 15px;
+	color: #1f4c6b;
+	border-bottom: 2px solid #1f4c6b;
+	margin-right:50px;
+}
+
+.BVFFIFTH {
+	height: 130px;
+	background-image: url(../images/BVFIRST.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 20px;
+}
+
+.BVFF-text p {
+	text-align: center;
+	font-family: Tahoma;
+	padding-right: 8px;
+	font-size: 15px;
+	color: #1f4c6b;
+}
+
+.BVSIXTH {
+	height: 130px;
+	background-image: url(../images/BTSEVENTH.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 20px;
+}
+
+.BVSS-text p {
+	text-align: center;
+	font-family: Tahoma;
+	padding-right: 8px;
+	font-size: 15px;
+	color: #1f4c6b;
+}
+
+.BVSEVENTH {
+	height: 140px;
+	background-image: url(../images/BTEIGTH.png);
+	background-size: coNTAIN;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 20px;
+}
+
+.BVSSS-text p {
+	text-align: center;
+	font-family: Tahoma;
+	padding-right: 8px;
+	font-size: 15px;
+	color: #1f4c6b;
+}
+
+.third-thing p {
+	text-align: left;
+	font-family: Gotham;
+	font-style: italic;
+	padding-right: 8px;
+	font-size: 15px;
+	color: #1f4c6b;
+	border-bottom: 2px solid #1f4c6b;
+	margin-right:180px;
+}
+
+.BVEIGTH {
+	height: 130px;
+	background-image: url(../images/BTNINTH.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 20px;
+}
+
+.BVE-text p {
+	text-align: center;
+	font-family: Tahoma;
+	padding-right: 8px;
+	font-size: 15px;
+	color: #1f4c6b;
+}
+
+.BVNINTH {
+	height: 130px;
+	background-image: url(../images/BTTENTH.png);
+	background-size: coNTAIN;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 20px;
+}
+
+.BVN-text p {
+	text-align: center;
+	font-family: Tahoma;
+	padding-right: 8px;
+	font-size: 15px;
+	color: #1f4c6b;
+}
+.bda-third {
+	height: 700px;
+}
+
+.after p {
+	text-align: right;
+	font-family: Gotham Black;
+	padding-right: 20px;
+	font-size: 32px;
+	color: #eeac34;
+	letter-spacing: 3px;
+	border-right: 6px solid #1f4c6b;
+}
+
+.fourth-thing p {
+	text-align: left;
+	font-family: Gotham;
+	font-style: italic;
+	padding-right: 8px;
+	font-size: 15px;
+	color: #1f4c6b;
+	border-bottom: 2px solid #1f4c6b;
+	margin-right:180px;
+}
+
+.BVELEVENTH {
+	height: 130px;
+	background-image: url(../images/BVTHIRTEENTH.png);
+	background-size: coNTAIN;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 20px;
+}
+
+.BVE-text p {
+	text-align: center;
+	font-family: Tahoma;
+	padding-right: 8px;
+	font-size: 15px;
+	color: #1f4c6b;
+}
+
+.BVTWELVETH {
+	height: 120px;
+	background-image: url(../images/BTTWELVETH.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 20px;
+}
+
+.BVTTT-text p {
+	text-align: center;
+	font-family: Tahoma;
+	padding-right: 8px;
+	font-size: 15px;
+	color: #1f4c6b;
+}
+
+.BVTHIRTEENTH {
+	height: 125px;
+	background-image: url(../images/BTTHIRTEENTH.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 20px;
+}
+
+.BVTTTT-text p {
+	text-align: center;
+	font-family: Tahoma;
+	padding-right: 8px;
+	font-size: 15px;
+	color: #1f4c6b;
+}
+
+.BVFOURTEENTH {
+	height: 120px;
+	background-image: url(../images/BTFOURTEENTH.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 20px;
+}
+
+.BVFFF-text p {
+	text-align: center;
+	font-family: Tahoma;
+	padding-right: 8px;
+	font-size: 15px;
+	color: #1f4c6b;
+}
+
+.BVFIFTEENTH {
+	height: 140px;
+	background-image: url(../images/BTFIFTEENTH.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 20px;
+}
+
+.BVFFFF-text p {
+	text-align: center;
+	font-family: Tahoma;
+	padding-right: 8px;
+	font-size: 15px;
+	color: #1f4c6b;
+}
+
+.BVSIXTEENTH {
+	height: 115px;
+	background-image: url(../images/BTSIXTENTH.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 20px;
+}
+
+.BVSSSS-text p {
+	text-align: center;
+	font-family: Tahoma;
+	padding-right: 8px;
+	font-size: 15px;
+	color: #1f4c6b;
+}
+
+.footer {
+	height: 250px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(../images/FOOTER.png);
+	margin: 0px;
+}

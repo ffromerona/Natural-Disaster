@@ -1,0 +1,772 @@
+a {
+	text-decoration: none;
+}
+
+body {
+	margin:0px;
+	padding:0px;
+}
+
+.top-part{
+  display: grid;
+  grid-template-columns: 6fr 1fr;
+  height: 45px;
+}
+
+.menu {
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
+  grid-gap: 0px;
+  background-color: #1f4c6b;
+  height: 45px;
+	margin: 0px;
+  padding-left: 0px;
+}
+
+.bar {
+	background-color:  #eeac34;
+}
+
+.menu li {
+	list-style: none;
+	color: #1f4c6b;
+	padding-left: 2px;
+	font-family: Gotham;
+	font-weight: bold;
+	letter-spacing: 3.5px;
+	padding: 13px;
+	text-align: center;
+}
+
+.menu li:hover {
+	background: #1f4c6b;
+	color: #eeac34;
+}
+
+.logo-part {
+  height: 45px;
+  background: url(../images/LOGOATAT.png);
+	background-color: #1f4c6b;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+	margin: 0px;
+	margin-top: 0px;
+}
+
+.earthquake {
+	height: 65px;
+	margin-bottom: 25px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #eeac34;
+}
+
+.earthquake h2{
+	text-align: center;
+	font-family: Gloss and Bloom;
+	color: #eeac34;
+	font-size: 40px;
+	letter-spacing: 3px;
+}
+
+.about-text {
+	height: 40px;
+	margin-top: 55px;
+	margin-right: 50px;
+	margin-left: 900px;
+	border-bottom: 2px solid #1f4c6b;
+	padding-right: 20px;
+}
+
+.about-text p{
+	text-align: right;
+	font-family: Gotham;
+	font-size: 30px;
+	color: #eeac34;
+}
+
+.all-about{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 25px;
+	height: 300px;
+	margin: 25px;
+	margin-top: 25px;
+	padding-left: 0px;
+}
+
+.all-about-text{
+	text-align: justify;
+	font-family: Gotham;
+	font-size: 15.5px;
+	color: #1f4c6b;
+	border: 2px solid #eeac34;
+	padding: 0px 25px;
+}
+
+.about-picture{
+	display: grid;
+	grid-template-columns: 1fr;
+	height: 305px;
+	padding-left: 0px;
+	background-image: url(../images/EQ.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: left;
+}
+
+.about-picture:hover{
+	display: grid;
+	grid-template-columns: 1fr;
+	height: 305px;
+	padding-left: 0px;
+	background-image: url(../images/HOVER_EA.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: left;
+}
+
+
+.about-SM {
+	height: 40px;
+	margin-top: 45px;
+	margin-left: 50px;
+	margin-right: 800px;
+	border-bottom: 2px solid #1f4c6b;
+	padding-left: 20px;
+}
+
+.about-SM p{
+	text-align: left;
+	font-family: Gotham;
+	font-size: 30px;
+	color: #eeac34;
+}
+
+.sm-about {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-gap: 25px;
+	height: 300px;
+	margin: 25px;
+	margin-top: 25px;
+	padding-left: 0px;
+}
+
+.sm-picture {
+	display: grid;
+	grid-template-columns: 1fr;
+	height: 300px;
+	padding-left: 0px;
+	background-image: url(../images/SM.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+.sm-text {
+	display: grid;
+	grid-template-columns: 1fr;
+	height: 300px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: #ffe16c;
+}
+
+.sm-text p{
+	text-align: justify;
+	font-family: Gotham;
+	font-size: 15.5px;
+	color: #1f4c6b;
+}
+
+
+.big-eq{
+	height: 40px;
+	margin-bottom: 10px;
+	padding-bottom: 5px;
+	border-top: 2px solid #eeac34;
+}
+
+.big-eq h1{
+	text-align: center;
+	font-family: Gotham;
+	color: #eeac34;
+	font-size: 40px;
+	letter-spacing: 2px;
+}
+
+.examples {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 20px;
+	margin: 20px;
+	padding: 20px;
+}
+
+.CHILE {
+	height: 250px;
+	padding-right: 20px;
+	border-right: 6px solid #1f4c6b;
+	background-image: url(../images/CHILE.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+.ALASKA {
+	height: 250px;
+	padding-right: 20px;
+	border-right: 6px solid #1f4c6b;
+	background-image: url(../images/ALASKA.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+.RUSSIA {
+	height: 250px;
+	padding-right: 20px;
+	border-right: 6px solid #1f4c6b;
+	background-image: url(../images/RUSSIA.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+
+.big-earthquake {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 20px;
+	margin: 0px;
+	padding-top: 5px;
+	padding-bottom: 1px;
+	border-top: 2px solid #eeac34;
+	border-bottom: 2px solid #eeac34;
+}
+
+.WORLD {
+	height: 630px;
+	padding-right: 20px;
+	border-right: 1.5px solid #eeac34;
+}
+
+.eq-world {
+	height: 40px;
+	border-bottom: 2px solid #1f4c6b;
+	margin: 20px;
+}
+
+.eq-world p{
+	text-align: center;
+	font-family: Gotham Black;
+	font-size: 25px;
+	color: #eeac34;
+}
+
+.GCE {
+	height: 20px;
+	margin: 10px;
+
+}
+
+.GCE p{
+	text-align: center;
+	font-family: Gotham;
+	font-size: 20px;
+	color: #1f4c6b;
+}
+
+.picture-world {
+	height: 300px;
+	background-image: url(../images/GCE.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-left: 20px;
+	margin-left: 20px;
+}
+
+.about-GCE {
+	padding-left: 20px;
+}
+
+.about-GCE p {
+	text-align: justify;
+	font-family: Gotham;
+	font-size: 18px;
+	color: #1f4c6b;
+}
+
+.PH {
+	height: 580px;
+}
+
+.eq-ph {
+	height: 40px;
+	border-bottom: 2px solid #1f4c6b;
+	margin: 20px;
+}
+
+.eq-ph p{
+	text-align: center;
+	font-family: Gotham Black;
+	font-size: 25px;
+	color: #eeac34;
+}
+
+.MG {
+	height: 20px;
+	margin: 10px;
+
+}
+
+.MG p{
+	text-align: center;
+	font-family: Gotham;
+	font-size: 20px;
+	color: #1f4c6b;
+}
+
+.picture-ph {
+	height: 300px;
+	background-image: url(../images/MG.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-right: 20px;
+	margin-right: 20px;
+}
+
+.about-MG {
+	padding-right: 20px;
+}
+
+.about-MG p {
+	text-align: justify;
+	font-family: Gotham;
+	font-size: 18px;
+	color: #1f4c6b;
+}
+
+.avoid {
+	height: 40px;
+	border-left: 4px solid #1f4c6b;
+	margin: 20px;
+	padding-left: 2px;
+}
+
+.avoid p{
+	text-align: left;
+	font-family: Gloss and Blossom;
+	font-size: 32px;
+	color: #eeac34;
+	letter-spacing: 4px;
+	padding-left: 10px;
+}
+
+.BDA {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 10px;
+	height: 1580px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+
+.bda-first {
+	height: 700px;
+}
+
+.before p {
+	text-align: right;
+	font-family: Gotham Black;
+	padding-right: 20px;
+	font-size: 32px;
+	color: #1f4c6b;
+	letter-spacing: 3px;
+	border-right: 6px solid #eeac34;
+}
+
+.first-thing p {
+	text-align: left;
+	font-family: Gotham;
+	font-style: italic;
+	padding-right: 8px;
+	font-size: 15px;
+	color: #eeac34;
+	border-bottom: 2px solid #eeac34;
+	margin-right:100px;
+}
+
+.BEFIRST {
+	height: 130px;
+	background-image: url(../images/BEFIRST.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 20px;
+}
+
+.BEF-text p {
+	text-align: center;
+	font-family: Tahoma;
+	padding-right: 8px;
+	font-size: 15px;
+	color: #eeac34;
+}
+
+.BESECOND {
+	height: 130px;
+	background-image: url(../images/BESECOND.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 20px;
+}
+
+.BES-text p {
+	text-align: center;
+	font-family: Tahoma;
+	padding-right: 8px;
+	font-size: 15px;
+	color: #eeac34;
+}
+
+.BETHIRD{
+	height: 130px;
+	background-image: url(../images/BETHIRD.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 20px;
+}
+
+.BET-text p {
+	text-align: center;
+	font-family: Tahoma;
+	padding-right: 8px;
+	font-size: 15px;
+	color: #eeac34;
+}
+
+.BEFOURTH {
+	height: 130px;
+	background-image: url(../images/BEFOURTH.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 20px;
+}
+
+.BEFF-text p {
+	text-align: center;
+	font-family: Tahoma;
+	padding-right: 8px;
+	font-size: 15px;
+	color: #eeac34;
+}
+
+.BEFIFTH {
+	height: 165px;
+	background-image: url(../images/BEFIFTH.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 20px;
+}
+
+.BEFFF-text p {
+	text-align: center;
+	font-family: Tahoma;
+	padding-right: 8px;
+	font-size: 15px;
+	color: #eeac34;
+}
+
+.BESIXTH {
+	height: 130px;
+	background-image: url(../images/BESIXTH.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 20px;
+}
+
+.BESS-text p {
+	text-align: center;
+	font-family: Tahoma;
+	padding-right: 8px;
+	font-size: 15px;
+	color: #eeac34;
+}
+
+.bda-second {
+	height: 700px;
+}
+
+.during p {
+	text-align: right;
+	font-family: Gotham Black;
+	padding-right: 20px;
+	font-size: 32px;
+	color: #1f4c6b;
+	letter-spacing: 3px;
+	border-right: 6px solid #eeac34;
+}
+
+.second-thing p {
+	text-align: left;
+	font-family: Gotham;
+	font-style: italic;
+	padding-right: 8px;
+	font-size: 15px;
+	color: #eeac34;
+	border-bottom: 2px solid #eeac34;
+	margin-right:150px;
+}
+
+.dch {
+	height: 130px;
+	background-image: url(../images/DCH.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 20px;
+	padding-bottom: 40px;
+	border-bottom: 2px solid #eeac34;
+}
+
+.BESEVENTH {
+	height: 130px;
+	background-image: url(../images/BESEVENTH.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 20px;
+}
+
+.BESSS-text p {
+	text-align: center;
+	font-family: Tahoma;
+	padding-right: 8px;
+	font-size: 15px;
+	color: #eeac34;
+}
+
+.BEEIGTH {
+	height: 130px;
+	background-image: url(../images/BEEIGTH.png);
+	background-size: coNTAIN;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 20px;
+}
+
+.BEEIGTH-text p {
+	text-align: center;
+	font-family: Tahoma;
+	padding-right: 8px;
+	font-size: 15px;
+	color: #eeac34;
+}
+
+.BENINTH {
+	height: 130px;
+	background-image: url(../images/BENINTH.png);
+	background-size: coNTAIN;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 20px;
+}
+
+.BEN-text p {
+	text-align: center;
+	font-family: Tahoma;
+	padding-right: 8px;
+	font-size: 15px;
+	color: #eeac34;
+}
+
+.third-thing p {
+	text-align: left;
+	font-family: Gotham;
+	font-style: italic;
+	padding-right: 8px;
+	font-size: 15px;
+	color: #eeac34;
+	border-bottom: 2px solid #eeac34;
+	margin-right:200px;
+}
+
+.BETENTH {
+	height: 130px;
+	background-image: url(../images/BETENTH.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 20px;
+}
+
+.BETT-text p {
+	text-align: center;
+	font-family: Tahoma;
+	padding-right: 8px;
+	font-size: 15px;
+	color: #eeac34;
+}
+
+.BEELEVENTH {
+	height: 130px;
+	background-image: url(../images/BEELEVENTH.png);
+	background-size: coNTAIN;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 20px;
+}
+
+.BEE-text p {
+	text-align: center;
+	font-family: Tahoma;
+	padding-right: 8px;
+	font-size: 15px;
+	color: #eeac34;
+}
+
+.bda-third {
+	height: 700px;
+}
+
+.after p {
+	text-align: right;
+	font-family: Gotham Black;
+	padding-right: 20px;
+	font-size: 32px;
+	color: #1f4c6b;
+	letter-spacing: 3px;
+	border-right: 6px solid #eeac34;
+}
+
+.fourth-thing p {
+	text-align: left;
+	font-family: Gotham;
+	font-style: italic;
+	padding-right: 8px;
+	font-size: 15px;
+	color: #eeac34;
+	border-bottom: 2px solid #eeac34;
+	margin-right:140px;
+}
+
+.BETWELVETH {
+	height: 130px;
+	background-image: url(../images/BETWELVETH.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 20px;
+}
+
+.BETTT-text p {
+	text-align: center;
+	font-family: Tahoma;
+	padding-right: 8px;
+	font-size: 15px;
+	color: #eeac34;
+}
+
+.BETHIRTEENTH {
+	height: 130px;
+	background-image: url(../images/BETHIRTEENTH.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 20px;
+}
+
+.BETTTT-text p {
+	text-align: center;
+	font-family: Tahoma;
+	padding-right: 8px;
+	font-size: 15px;
+	color: #eeac34;
+}
+
+.BEFOURTEENTH {
+	height: 120px;
+	background-image: url(../images/BEFOURTEENTH.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 20px;
+}
+
+.BEFFF-text p {
+	text-align: center;
+	font-family: Tahoma;
+	padding-right: 8px;
+	font-size: 15px;
+	color: #eeac34;
+}
+
+.BEFIFTEENTH {
+	height: 140px;
+	background-image: url(../images/BEFIFTEENTH.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 20px;
+}
+
+.BEFFFF-text p {
+	text-align: center;
+	font-family: Tahoma;
+	padding-right: 8px;
+	font-size: 15px;
+	color: #eeac34;
+}
+
+.BESIXTEENTH {
+	height: 115px;
+	background-image: url(../images/BESIXTEENTH.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 20px;
+}
+
+.BESSSS-text p {
+	text-align: center;
+	font-family: Tahoma;
+	padding-right: 8px;
+	font-size: 15px;
+	color: #eeac34;
+}
+
+.BESEVENTEENTH {
+	height: 115px;
+	background-image: url(../images/BESEVENTEETH.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 20px;
+}
+
+.BESSSSS-text p {
+	text-align: center;
+	font-family: Tahoma;
+	padding-right: 8px;
+	font-size: 15px;
+	color: #eeac34;
+}
+
+.footer {
+	height: 250px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(../images/FOOTER.png);
+	margin: 0px;
+}
